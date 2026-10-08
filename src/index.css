@@ -120,3 +120,57 @@ body {
   background: white;
   border-radius: 10px;
 }
+
+/* About Us Section */
+.about-us {
+  padding: 60px 40px;
+  background: white;
+}
+
+.about-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-content h2 {
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.about-content p {
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+.about-features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.about-features div {
+  padding: 25px;
+  border-radius: 10px;
+  background: #f5f8f3;
+}
+
+.about-features h3 {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .about-features {
+    grid-template-columns: 1fr;
+  }
+
+  .about-us {
+    padding: 40px 20px;
+  }
+}

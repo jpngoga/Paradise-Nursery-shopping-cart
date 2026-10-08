@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import ProductList from "./components/ProductList";
 import CartItem from "./components/CartItem";
 import { plants } from "./data/plants";
+import AboutUs from "./components/AboutUs";
 import "./index.css";
 
 function App() {
@@ -92,7 +93,9 @@ function App() {
               Bring nature into your home with our beautiful
               collection of plants.
             </p>
+            
           </section>
+          <AboutUs />
 
           <ProductList
             plants={plants}

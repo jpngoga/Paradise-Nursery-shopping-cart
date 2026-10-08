@@ -2,33 +2,36 @@ export const plants = [
   {
     id: 1,
     name: "Aloe Vera",
+    category: "Indoor Plants",
+    price: 15.99,
     description: "A beautiful and easy-to-care-for indoor plant.",
-    price: 12.99,
     image: "/aloe-vera.jpg",
-    category: "Indoor Plants"
   },
+
   {
     id: 2,
     name: "Snake Plant",
-    description: "A hardy plant that requires very little maintenance.",
-    price: 18.99,
+    category: "Indoor Plants",
+    price: 19.99,
+    description: "A hardy plant that is perfect for beginners.",
     image: "/snake-plant.jpg",
-    category: "Indoor Plants"
   },
+
   {
     id: 3,
     name: "Monstera",
-    description: "A tropical plant with large, distinctive leaves.",
-    price: 24.99,
+    category: "Tropical Plants",
+    price: 29.99,
+    description: "A tropical plant with beautiful large leaves.",
     image: "/monstera.jpg",
-    category: "Tropical Plants"
   },
+
   {
     id: 4,
     name: "Peace Lily",
-    description: "An elegant flowering houseplant for your home.",
-    price: 16.99,
+    category: "Flowering Plants",
+    price: 24.99,
+    description: "A beautiful flowering plant for your home.",
     image: "/peace-lily.jpg",
-    category: "Flowering Plants"
-  }
+  },
 ];

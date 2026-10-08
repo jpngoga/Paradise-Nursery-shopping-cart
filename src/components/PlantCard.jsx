@@ -1,19 +1,23 @@
 function PlantCard({ plant, onAddToCart }) {
   return (
     <div className="plant-card">
-      <img src={plant.image} alt={plant.name} />
+      <img
+        src={plant.image}
+        alt={plant.name}
+        className="plant-image"
+      />
 
-      <div className="plant-info">
-        <h2>{plant.name}</h2>
+      <h3>{plant.name}</h3>
 
-        <p>{plant.description}</p>
+      <p>{plant.description}</p>
 
-        <h3>${plant.price.toFixed(2)}</h3>
+      <p className="plant-price">
+        ${plant.price.toFixed(2)}
+      </p>
 
-        <button onClick={() => onAddToCart(plant)}>
-          Add to Cart
-        </button>
-      </div>
+      <button onClick={() => onAddToCart(plant)}>
+        Add to Cart
+      </button>
     </div>
   );
 }

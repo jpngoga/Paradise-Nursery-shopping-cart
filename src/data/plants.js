@@ -4,7 +4,7 @@ export const plants = [
     name: "Aloe Vera",
     description: "A beautiful and easy-to-care-for indoor plant.",
     price: 12.99,
-    image: "/paradise-nursery/public/aloe-vera.jpg",
+    image: "/aloe-vera.jpg",
     category: "Indoor Plants"
   },
   {
@@ -12,7 +12,7 @@ export const plants = [
     name: "Snake Plant",
     description: "A hardy plant that requires very little maintenance.",
     price: 18.99,
-    image: "/paradise-nursery/public/snake-plant.jpg",
+    image: "/snake-plant.jpg",
     category: "Indoor Plants"
   },
   {
@@ -20,7 +20,7 @@ export const plants = [
     name: "Monstera",
     description: "A tropical plant with large, distinctive leaves.",
     price: 24.99,
-    image: "/paradise-nursery/public/monstera.jpg",
+    image: "/monstera.jpg",
     category: "Tropical Plants"
   },
   {
@@ -28,7 +28,7 @@ export const plants = [
     name: "Peace Lily",
     description: "An elegant flowering houseplant for your home.",
     price: 16.99,
-    image: "/paradise-nursery/public/peace-lily.jpg",
+    image: "/peace-lily.jpg",
     category: "Flowering Plants"
   }
 ];
